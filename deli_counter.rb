@@ -26,11 +26,7 @@ def line(line)
     i = 0
     while i < line.length
       curr = i + 1
-      if i == line.length - 1
-        list = "#{list} #{curr}. #{line[i]}"
-      else
-        list = "#{list} #{curr}. #{line[i]},"
-      end
+      list = "#{list} #{curr}. #{line[i]}"
       i += 1
     end
     return puts list;
