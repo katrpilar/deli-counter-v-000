@@ -20,7 +20,7 @@ end
 
 def line(line)
   if line.length == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     list = "The line is currently:"
     i = 0
@@ -33,6 +33,6 @@ def line(line)
       end
       i += 1
     end
-    return list;
+    return puts list;
   end
 end
