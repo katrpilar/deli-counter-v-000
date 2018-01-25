@@ -10,11 +10,11 @@ end
 
 def now_serving(line)
   if line.length == 0
-    return "There is nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
-    var first = line[0]
-    line.shift()
-    return "Currently serving #{first}."
+    first = line[0]
+    line.shift
+    puts "Currently serving #{first}."
   end
 end
 
