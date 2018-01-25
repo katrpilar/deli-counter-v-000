@@ -19,7 +19,7 @@ def now_serving(line)
 end
 
 def line(line)
-  if (line.length == 0)
+  if line.length == 0
     return "The line is currently empty."
   else
     list = "The line is currently:"
