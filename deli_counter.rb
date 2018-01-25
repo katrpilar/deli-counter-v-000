@@ -5,7 +5,7 @@ katz_deli = []
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   pos = katz_deli.length
-  return "Welcome, #{name}. You are number #{pos} in line."
+  puts "Welcome, #{name}. You are number #{pos} in line."
 end
 
 def now_serving(line)
